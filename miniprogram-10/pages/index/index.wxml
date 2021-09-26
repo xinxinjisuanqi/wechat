@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="box" >
+    <view class='title'>彩票中奖</view>
+    <view>彩票号码为:</view>
+    <view wx:for="{{rand}}">{{item}}</view>
+    <button type='primary' bindtap='newRand'>产生新的彩票号码</button>
+
+</view>
+<view>宋洪鑫 电科19-2 201923010222</view>
+<view>月亮与六便士</view>
