@@ -1,0 +1,7 @@
+/**app.wxss**/
+.title{
+  font-size:25px;
+  font-size:center;
+  margin-bottom:15px;
+  color:yello;
+}

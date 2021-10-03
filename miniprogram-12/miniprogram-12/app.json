@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/taishan",
+    "pages/quancheng",
+    "pages/guangyuelou",
+    "pages/sankong"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00f",
+    "navigationBarTitleText": "好客山东欢迎您",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/image/shouye.png",
+        "selectedIconPath": "/image/shouye2.png"
+      },
+      {
+        "pagePath": "pages/taishan",
+        "text": "泰山",
+        "iconPath": "/image/guanyutaishan.png",
+        "selectedIconPath": "/image/yuanjing2.png"
+      },
+      {
+        "pagePath": "pages/quancheng",
+        "text": "泉城",
+        "iconPath": "/image/chuyanshui.png",
+        "selectedIconPath": "/image/kuangquanshui3.png"
+      },
+      {
+        "pagePath": "pages/guangyuelou",
+        "text": "家乡",
+        "iconPath": "/image/line-ancientgatechengloumen.png",
+        "selectedIconPath": "/image/gulou2.png"
+      },
+      {
+        "pagePath": "pages/sankong",
+        "text": "三孔",
+        "iconPath": "/image/kongzixueyuan.png",
+        "selectedIconPath": "/image/kongmiao.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
